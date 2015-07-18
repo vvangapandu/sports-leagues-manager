@@ -38,7 +38,7 @@ import com.google.common.base.Preconditions;
 @Service
 public class ConfigurationServiceImpl implements ConfigurationService {
 
-    @Autowired
+    //@Autowired
     private ConfigurationDao configurationDao;
 
 	private SamplingStrategy DEFAULT_STRATEGY = new DefaultSamplingStrategy();

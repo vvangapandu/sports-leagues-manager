@@ -29,7 +29,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.codahale.metrics.annotation.Timed;
 import com.eharmony.services.configservice.model.ConfigurationDo;
 
-@Repository
+//@Repository
 public class ConfigurationDao {
 
     private static String LOCALE = "locale";
