@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+	<class name="com.eharmony.services.configservice.model.ConfigurationDo" table="ehConfiguration" mutable="false">
+	    <composite-id>
+	        <key-property name="property" column="PROPERTY"/>
+	        <key-property name="locale" column="LOCALE" type="locale"/>
+	    </composite-id>
+		 
+		<property name="id" column="id"  not-null="true"/>
+		<property name="value" column="VALUE"  not-null="true"/>
+		<property name="configurationType" column="CONFIGURATIONTYPE" type="ConfigurationTypeEnum" not-null="true" />
+	</class>
+
+</hibernate-mapping>

@@ -1,0 +1,24 @@
+2015-07-18 14:58:37,151 [main] INFO  [o.s.w.c.ContextLoader] - Root WebApplicationContext: initialization started
+2015-07-18 14:58:37,242 [main] INFO  [o.s.w.c.s.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Jul 18 14:58:37 PDT 2015]; root of context hierarchy
+2015-07-18 14:58:37,271 [main] INFO  [o.s.b.f.x.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [configservice/application-context.xml]
+2015-07-18 14:58:37,423 [main] INFO  [o.s.b.f.x.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [configservice/hibernate-context.xml]
+2015-07-18 14:58:37,468 [main] INFO  [o.s.b.f.x.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [configservice/sampling-strategy.xml]
+2015-07-18 14:58:37,778 [main] INFO  [o.s.b.f.c.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [configservice/configservice.global.properties]
+2015-07-18 14:58:37,778 [main] INFO  [o.s.b.f.c.PropertyPlaceholderConfigurer] - Loading properties file from URL [file:jetty/override.properties]
+2015-07-18 14:58:37,783 [main] INFO  [o.s.b.f.a.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-07-18 14:58:38,142 [main] INFO  [o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-18 14:58:38,152 [main] INFO  [o.h.Version] - HHH000412: Hibernate Core {4.3.7.Final}
+2015-07-18 14:58:38,156 [main] INFO  [o.h.c.Environment] - HHH000206: hibernate.properties not found
+2015-07-18 14:58:38,157 [main] INFO  [o.h.c.Environment] - HHH000021: Bytecode provider name : javassist
+2015-07-18 15:07:55,390 [main] INFO  [o.s.w.c.ContextLoader] - Root WebApplicationContext: initialization started
+2015-07-18 15:07:55,471 [main] INFO  [o.s.w.c.s.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Jul 18 15:07:55 PDT 2015]; root of context hierarchy
+2015-07-18 15:07:55,502 [main] INFO  [o.s.b.f.x.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [configservice/application-context.xml]
+2015-07-18 15:07:55,608 [main] INFO  [o.s.b.f.x.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [configservice/hibernate-context.xml]
+2015-07-18 15:07:55,646 [main] INFO  [o.s.b.f.x.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [configservice/sampling-strategy.xml]
+2015-07-18 15:07:55,913 [main] INFO  [o.s.b.f.c.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [configservice/configservice.global.properties]
+2015-07-18 15:07:55,913 [main] INFO  [o.s.b.f.c.PropertyPlaceholderConfigurer] - Loading properties file from URL [file:jetty/override.properties]
+2015-07-18 15:07:55,918 [main] INFO  [o.s.b.f.a.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-07-18 15:07:56,542 [main] INFO  [o.h.a.c.Version] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+2015-07-18 15:07:56,552 [main] INFO  [o.h.Version] - HHH000412: Hibernate Core {4.3.8.Final}
+2015-07-18 15:07:56,556 [main] INFO  [o.h.c.Environment] - HHH000206: hibernate.properties not found
+2015-07-18 15:07:56,557 [main] INFO  [o.h.c.Environment] - HHH000021: Bytecode provider name : javassist
