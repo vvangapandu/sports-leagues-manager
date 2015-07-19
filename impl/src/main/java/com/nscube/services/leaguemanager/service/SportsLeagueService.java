@@ -1,4 +1,4 @@
-package com.eharmony.services.configservice.service;
+package com.nscube.services.leaguemanager.service;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;
 
-import com.eharmony.services.configservice.dao.SportsLeagueDao;
-import com.eharmony.services.configservice.model.SportsLeagueDo;
+import com.nscube.services.leaguemanager.dao.SportsLeagueDao;
+import com.nscube.services.leaguemanager.model.SportsLeagueDo;
 
 @Service
 public class SportsLeagueService {

@@ -11,7 +11,7 @@
     <level value="INFO" />
   </logger>
 
-  <logger name="com.eharmony">
+  <logger name="com.nscube">
     <level value="DEBUG" />
   </logger>
 

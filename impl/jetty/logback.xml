@@ -39,7 +39,6 @@
         </encoder>
     </appender>
 
-  	<logger name="com.eharmony.protorest" level="INFO" />
     <logger name="SAMPLING_LOG" level="INFO" additivity="false">
         <appender-ref ref="SAMPLING_LOG" />
     </logger>

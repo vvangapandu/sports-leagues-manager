@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
-  <display-name>config service</display-name>
+  <display-name>Sports Leagues Manager Service</display-name>
   <context-param>
     <param-name>contextConfigLocation</param-name>
     <param-value>
-        	classpath:configservice/application-context.xml
+        	classpath:leaguemanager/application-context.xml
         </param-value>
   </context-param>
   <listener>
@@ -32,11 +32,11 @@
     <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
     <init-param>
       <param-name>javax.ws.rs.Application</param-name>
-      <param-value>com.eharmony.services.configservice.configuration.JerseyApp</param-value>
+      <param-value>com.nscube.services.leaguemanager.configuration.JerseyApp</param-value>
     </init-param>
     <init-param>
       <param-name>jersey.config.server.provider.packages</param-name>
-      <param-value>com.eharmony.services.configservice;com.eharmony.protorest.providers</param-value>
+      <param-value>com.nscube.services.leaguemanager;com.eharmony.protorest.providers</param-value>
     </init-param>
     <init-param>
       <param-name>jersey.config.server.tracing</param-name>

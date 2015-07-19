@@ -573,10 +573,4 @@
 		</snapshotRepository>
 	</distributionManagement>
 
-	<scm>
-		<connection>scm:git:git@github.corp.eharmony.com:foundation/config-service.git</connection>
-		<url>git@github.corp.eharmony.com:foundation/config-service.git</url>
-		<developerConnection>scm:git:git@github.corp.eharmony.com:foundation/config-service.git</developerConnection>
-	</scm>
-
 </project>

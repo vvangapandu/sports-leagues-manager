@@ -1,4 +1,4 @@
-package com.eharmony.services.configservice.configuration;
+package com.nscube.services.leaguemanager.configuration;
 
 import org.glassfish.jersey.jackson.JacksonFeature;
 import org.glassfish.jersey.server.ResourceConfig;

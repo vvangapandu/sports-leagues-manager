@@ -1,16 +1,5 @@
-/*
- * This software is the confidential and proprietary information of
- * eharmony.com and may not be used, reproduced, modified, distributed,
- * publicly displayed or otherwise disclosed without the express written
- * consent of eharmony.com.
- *
- * This software is a work of authorship by eharmony.com and protected by
- * the copyright laws of the United States and foreign jurisdictions.
- *
- * Copyright 2000-2015 eharmony.com, Inc. All rights reserved.
- *
- */
-package com.eharmony.services.configservice.rest;
+
+package com.nscube.services.leaguemanager.rest;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -27,8 +16,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.eharmony.services.configservice.model.SportsLeagueDo;
-import com.eharmony.services.configservice.service.SportsLeagueService;
+import com.nscube.services.leaguemanager.model.SportsLeagueDo;
+import com.nscube.services.leaguemanager.service.SportsLeagueService;
 
 @Component
 @Path("/v1")

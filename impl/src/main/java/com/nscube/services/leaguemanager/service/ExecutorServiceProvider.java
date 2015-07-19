@@ -1,4 +1,4 @@
-package com.eharmony.services.configservice.service;
+package com.nscube.services.leaguemanager.service;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

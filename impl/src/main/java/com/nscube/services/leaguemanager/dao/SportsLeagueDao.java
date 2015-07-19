@@ -1,4 +1,4 @@
-package com.eharmony.services.configservice.dao;
+package com.nscube.services.leaguemanager.dao;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,7 +8,7 @@ import java.util.Map;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.stereotype.Component;
 
-import com.eharmony.services.configservice.model.SportsLeagueDo;
+import com.nscube.services.leaguemanager.model.SportsLeagueDo;
 @Component
 public class SportsLeagueDao {
 

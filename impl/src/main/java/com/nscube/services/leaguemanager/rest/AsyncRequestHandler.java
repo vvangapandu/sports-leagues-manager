@@ -1,4 +1,4 @@
-package com.eharmony.services.configservice.rest;
+package com.nscube.services.leaguemanager.rest;
 
 import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.container.AsyncResponse;

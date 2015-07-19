@@ -1,4 +1,4 @@
-package com.eharmony.services.configservice.model;
+package com.nscube.services.leaguemanager.model;
 
 public class SportsLeagueDo {
 
