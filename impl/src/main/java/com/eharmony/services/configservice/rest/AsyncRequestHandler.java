@@ -7,16 +7,13 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.ResponseBuilder;
 import javax.ws.rs.core.Response.Status;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
-import com.eharmony.services.configservice.util.SamplingLogger;
 
 @Component
 public class AsyncRequestHandler {
 
-    @Value("${redis.expiryInSeconds}")
-    private int cacheTimeout;
+    /*@Value("${cache.header.timeout}")*/
+    private int cacheTimeout=900;
 
     public void handleException(final AsyncResponse asyncResponse, Throwable t) {
     	if(t instanceof WebApplicationException) {
@@ -27,9 +24,7 @@ public class AsyncRequestHandler {
     }
     
     public <T> Response getResponse(T configFeatures, boolean writeSamplingLog) {
-    	if(writeSamplingLog) {
-    		SamplingLogger.writeSamplingLog(configFeatures);
-    	}
+    	
         ResponseBuilder builder = Response.ok(configFeatures);
         builder.cacheControl(getCacheControl());
 
