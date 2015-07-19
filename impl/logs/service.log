@@ -332,3 +332,14 @@ Caused by: java.io.FileNotFoundException: /Users/vvangapandu/git-repositories/gi
 2015-07-18 16:55:58,605 [main] INFO  [c.e.s.c.s.ExecutorServiceProvider] - initialized ConfigurationFeaturesResource with TASK_EXECUTOR with pool size 240
 2015-07-18 16:55:58,786 [main] INFO  [o.s.w.c.ContextLoader] - Root WebApplicationContext: initialization completed in 801 ms
 2015-07-18 16:55:59,036 [main] INFO  [c.e.s.c.c.JerseyApp] - Initializing App
+2015-07-18 17:19:53,488 [main] INFO  [o.s.w.c.ContextLoader] - Root WebApplicationContext: initialization started
+2015-07-18 17:19:53,549 [main] INFO  [o.s.w.c.s.XmlWebApplicationContext] - Refreshing Root WebApplicationContext: startup date [Sat Jul 18 17:19:53 PDT 2015]; root of context hierarchy
+2015-07-18 17:19:53,582 [main] INFO  [o.s.b.f.x.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [configservice/application-context.xml]
+2015-07-18 17:19:53,830 [main] INFO  [o.s.b.f.c.PropertyPlaceholderConfigurer] - Loading properties file from class path resource [configservice/configservice.global.properties]
+2015-07-18 17:19:53,830 [main] INFO  [o.s.b.f.c.PropertyPlaceholderConfigurer] - Loading properties file from URL [file:jetty/override.properties]
+2015-07-18 17:19:53,835 [main] INFO  [o.s.b.f.a.AutowiredAnnotationBeanPostProcessor] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-07-18 17:19:53,863 [main] INFO  [c.e.s.c.r.EcvResource] - Instantiated EcvResource JAX-RS endpoint
+2015-07-18 17:19:53,881 [main] INFO  [c.e.s.c.r.LeagueResource] - initialized LeagueResource...
+2015-07-18 17:19:53,899 [main] INFO  [c.e.s.c.s.ExecutorServiceProvider] - initialized ConfigurationFeaturesResource with TASK_EXECUTOR with pool size 240
+2015-07-18 17:19:54,043 [main] INFO  [o.s.w.c.ContextLoader] - Root WebApplicationContext: initialization completed in 553 ms
+2015-07-18 17:19:54,233 [main] INFO  [c.e.s.c.c.JerseyApp] - Initializing App

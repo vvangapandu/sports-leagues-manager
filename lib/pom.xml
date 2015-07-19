@@ -9,16 +9,9 @@
   <artifactId>league-manager-lib</artifactId>
   <description>manages leagues</description>
   <packaging>jar</packaging>
-  <properties>
-    <bouncycastle.version>1.51</bouncycastle.version>
-  </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.bouncycastle</groupId>
-      <artifactId>bcprov-jdk15on</artifactId>
-      <version>${bouncycastle.version}</version>
-    </dependency>
+    
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>

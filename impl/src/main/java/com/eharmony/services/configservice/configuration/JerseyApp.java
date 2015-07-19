@@ -6,9 +6,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.filter.RequestContextFilter;
 
-import com.codahale.metrics.jersey2.InstrumentedResourceMethodApplicationListener;
-import com.eharmony.services.configservice.monitoring.GraphiteReportingConfiguration;
-
 public class JerseyApp extends ResourceConfig {
     Logger log = LoggerFactory.getLogger(getClass());
 
@@ -16,8 +13,6 @@ public class JerseyApp extends ResourceConfig {
         log.info("Initializing App");
         register(RequestContextFilter.class);
         register(JacksonFeature.class);
-        register(new InstrumentedResourceMethodApplicationListener(
-                GraphiteReportingConfiguration.getRegistry()));
     }
 
 }

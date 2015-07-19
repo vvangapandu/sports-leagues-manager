@@ -23,11 +23,9 @@
 		<slf4j.version>1.7.12</slf4j.version>
 		<log4j.version>1.2.15</log4j.version>
 		<logback-version>1.1.2</logback-version>
-		<hornetq.version>2.2.19.Final</hornetq.version>
 		<maven.build.timestamp.format>dd/MM/yyyy hh:mm:ss a</maven.build.timestamp.format>
 		<timestamp>${maven.build.timestamp}</timestamp>
 		<maven-extra-enforcer-rules.version>1.0-alpha-3</maven-extra-enforcer-rules.version>
-		<metrics.version>3.1.0</metrics.version>
 		<java.persistence.version>1.0</java.persistence.version>
 		<jackson.version>1.9.13</jackson.version>
 		<commons-lang-version>2.4</commons-lang-version>
@@ -40,21 +38,16 @@
 		<commons.io.version>1.4</commons.io.version>
 		<oro.version>2.0.8</oro.version>
 		<commons.beanutils.version>1.8.2</commons.beanutils.version>
-		<!-- <jsr311.api.version>1.1</jsr311.api.version> -->
 		<joda.time.version>1.6</joda.time.version>
 		<mockito.all.version>1.8.5</mockito.all.version>
-		<easymock.version>3.0</easymock.version>
 		<httpunit.version>1.6.2</httpunit.version>
 		<junit.version>4.7</junit.version>
-		<jboss.jms.api.version>1.1.0.GA</jboss.jms.api.version>
 		<jboss.netty.version>3.2.0.Final</jboss.netty.version>
 		<asm.version>3.1</asm.version>  
 		<asm.attrs.version>2.2.3</asm.attrs.version>
 		<cglib.version>2.2.2</cglib.version>
 		<stop.port>7911</stop.port>
 		<oracle.jdbc.version>11.2.0.3.0</oracle.jdbc.version>
-		<hibernate.commons.annotations.version>3.5.6-Final</hibernate.commons.annotations.version>
-		<hibernate.version>4.3.10.Final</hibernate.version>
 		<c3p0.version>0.9.1.2</c3p0.version>
 		<java-version>1.8</java-version>
 	</properties>
@@ -132,28 +125,6 @@
 				<artifactId>protostuff-core</artifactId>
 				<version>${protostuff-version}</version>
 			</dependency>
-			<!-- Graphite dependencies -->
-			<dependency>
-				<groupId>io.dropwizard.metrics</groupId>
-				<artifactId>metrics-core</artifactId>
-				<version>${metrics.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>io.dropwizard.metrics</groupId>
-				<artifactId>metrics-jersey2</artifactId>
-				<version>${metrics.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>io.dropwizard.metrics</groupId>
-				<artifactId>metrics-graphite</artifactId>
-				<version>${metrics.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>io.dropwizard.metrics</groupId>
-				<artifactId>metrics-jvm</artifactId>
-				<version>${metrics.version}</version>
-			</dependency>
-
 			<dependency>
 				<groupId>com.google.guava</groupId>
 				<artifactId>guava</artifactId>
@@ -203,12 +174,6 @@
 				<groupId>commons-beanutils</groupId>
 				<version>${commons.beanutils.version}</version>
 			</dependency>
-
-			<!-- <dependency>
-				<groupId>javax.ws.rs</groupId>
-				<artifactId>jsr311-api</artifactId>
-				<version>${jsr311.api.version}</version>
-			</dependency> -->
 
 			<dependency>
 				<groupId>joda-time</groupId>
@@ -283,13 +248,6 @@
 				<scope>test</scope>
 			</dependency>
 			
-			<dependency>
-				<groupId>org.easymock</groupId>
-				<artifactId>easymock</artifactId>
-				<version>${easymock.version}</version>
-				<scope>test</scope>
-			</dependency>
-
 			<dependency>
 				<groupId>httpunit</groupId>
 				<artifactId>httpunit</artifactId>
@@ -385,14 +343,6 @@
 			
 			<!-- Spring Framework END -->
 			
-			<!-- Misc Start -->
-			<dependency>
-				<groupId>org.jboss.javaee</groupId>
-				<artifactId>jboss-jms-api</artifactId>
-				<version>${jboss.jms.api.version}</version>
-				<scope>compile</scope>
-			</dependency>
-
 			<dependency>
 				<groupId>org.jboss.netty</groupId>
 				<artifactId>netty</artifactId>
